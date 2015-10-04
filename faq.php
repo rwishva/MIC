@@ -1,0 +1,159 @@
+<html>
+    <head>
+        
+        <title>Million - FAQs</title>
+        <link href='css/bootstrap.min.css' rel='stylesheet'>
+        <link rel='stylesheet' type='text/css' href='css/bstyle.css' />
+        <link rel='stylesheet' type='text/css' href='css/style_faq.css' />
+        <link rel="icon" type="image/png" href="img/fav-2.png" />
+
+        <script src="js/jquery.min.js"></script>
+
+      <!-- <link href="css/style.css" rel="stylesheet"> -->
+    </head>
+
+
+<script>
+  $(document).ready(function() {
+    $('.faq >  a').click(function() {
+      $(this).next(".answer").toggle();
+    });
+  });
+
+    // function getEventTarget(e) {
+    //     e = e || window.event;
+    //     return e.target || e.srcElement; 
+    // }
+
+    // var ul = document.getElementById('test');
+    // ul.onclick = function(event) {
+    //     var target = getEventTarget(event);
+    //     alert(target.innerHTML);
+    // };
+
+
+</script>
+
+
+
+        <body>
+        	<center><nav class="navbar SLS">
+        		 <div class="container-fluid">
+    <div class="row-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      
+      <a class="navbar-brand" href="millioncompany.php" id="brand"><strong>M</strong>illion<strong>C</strong>ompany.lk&#8482;</a>
+    </div>
+    <p class="navbar-text" id="describe">1,000,000 pixels &#8226; 10/= per pixel &#8226; Own a piece of Srilankan History<a href="#" class="a"></a></p>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <!-- <form action="login.php">
+      <button type="submit" class="btn btn-default navbar-btn pull-right" >Buy My Space</button>
+      </form> -->
+      <form action="millioncompany.php">
+            <button type="submit" class="btn btn-default navbar-btn pull-right" id="gold">Home</button>
+          </form>
+      <!-- <p class="navbar-text">SLS Is Best Search</p> -->
+    
+      
+    </div><!-- /.navbar-collapse -->
+    </div>
+  </div>
+  
+</nav>
+</center>
+        	<center>
+
+            <div class="box">
+              <div class="box" id="inner">
+<div class="faq-left" id="faq">            	
+<div id="faq_important_notification">
+  <h2> IMPORTANT NOTIFICATION: </h2>
+  tsu.co is a community for authentic engagement.  Please treat it respectfully. Users who spam or post inappropriate content will be banned in order to preserve the community.
+</div>
+
+<h3 class="old_header">FAQ</h3>
+<div class="containers_content faq">
+
+
+  
+  <a>What is MillionCompany</a>
+  <div class="answer">
+    MillionCompany is a free social network and payment platform that shares up to 90% of revenues with its users. <br />
+    <i>(MillionCompany is pronounced ‘Sue’)</i><br />
+  </div>
+  
+  </br>
+
+  
+
+  <a>How is MillionCompany different?</a>
+  <div class="answer">
+    <p>
+      <strong>1. Ownership</strong> - We believe in real ownership, which only exists when users own the rights to their content and the economics that come with it. Users should be compensated for their likeness, image and content. It’s simple and it’s the right thing to do.
+    </p>
+
+    <p>
+      <strong>2. Access</strong> - We share social revenues with everyone, for any type of content, size of network or level of influence. Using MillionCompany requires nothing more than what you already do on other social media platforms today.
+    </p>
+
+    <p>
+      <strong>3. Empowerment</strong> - Our model is global, scalable, and designed to empower the user. For the first time every user can be a content creator earning royalties in perpetuity.
+    </p>
+  </div>
+
+  </br>
+
+  <a>How does MillionCompany work?</a>
+  <div class="answer">
+    <p>
+      MillionCompany shares social revenues that come from third party ads, sponsorships and partnerships. Once economics are created, MillionCompany receives 10% to maintain the platform. Half of the remaining earned revenue is paid to the user who created the content. The other half of the remaining earned revenue is distributed to the user’s network <a class="jump-link" data-target-location="#family-tree"><strong>Family Tree</strong></a>. Users on MillionCompany monetize their content and network in perpetuity, which continues to grow alongside the community.
+    </p>
+  </div>
+  </br>
+
+  <a>How do I join MillionCompany?</a>
+  <div class="answer">
+    <p>
+      New members can only join MillionCompany by user invitation (via member shortcodes.) Our invite-only system enables us to track and distribute network value to the users who help MillionCompany grow.
+    </p>
+  </div>
+  </br>
+
+  <a>The content I share has value?</a>
+  <div class="answer">
+    <p>
+      Yes, as a user on social media platforms, your content and interactions are valuable. On MillionCompany, you will get paid for your content. Half of your earned revenue is in the form of royalties generated by the content you post. Sharing content on MillionCompany is as simple as any other social platform. Sign up, post your status, photos, or videos to your page, and engage with your friends as little or as often as you’d like.
+    </p>
+  </div>
+  </br>
+
+  <a>My network has value?</a>
+  <div class="answer">
+    <p>
+      Yes, your network is also valuable. The other half of your earned revenue on MillionCompany comes from the growth and activity of your personal social network. One third of all users’ content-generated revenue is passed up to the person that directly invited them to join MillionCompany. A third of the remaining shared revenue will then go to the person that invited that user, and so on. The generations of users in your personal network are a part of what we call your  <a class="jump-link" data-target-location="#family-tree"><strong>Family Tree</strong></a>. To learn more about the algorithm that tsu uses to distribute network value, visit: <a class="jump-link" data-target-location="#algorithm"><strong>What is the tsu Algorithm?</strong></a>
+    </p>
+  </div>
+
+
+
+
+
+
+</div>
+</div>
+</div>
+</center>
+        	
+
+
+<nav class="navbar navbar-default navbar-static-bottom" id="footer">
+  <div class="container">
+    <center><p class="text-muted credit"><a>Copyright &copy; MillionCompany.lk&#8482; All rights reserved.</a></p></center>
+  </div>
+</nav>
+        </body>
+
+
+</html>
