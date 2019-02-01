@@ -13,5 +13,6 @@ if (!$conn) {
 }
 $db_select = mysqli_select_db($conn,$database);
 //echo "Connected successfully";
+//Change done after 3 years :)
 
 ?>
